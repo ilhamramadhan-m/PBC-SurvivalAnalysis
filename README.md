@@ -1,21 +1,24 @@
-# 📊 Survival Analysis of Primary Biliary Cirrhosis (PBC)
+# 📊 Analisis Faktor-Faktor yang Mempengaruhi Survival Time Pasien Penderita Primary Biliary Cirrhosis
 
-## 📌 Background
-Primary Biliary Cirrhosis (PBC) is a chronic autoimmune liver disease that can lead to progressive liver damage and increased mortality risk. Understanding the factors influencing patient survival is crucial for improving treatment strategies and clinical decision-making. This project employs survival analysis techniques to investigate the impact of various clinical and demographic variables on PBC patient survival.
+## 📌 Latar Belakang
 
-## 🛠 Methodology
-The analysis follows these key steps:
-1. **Data Preprocessing**: Cleaning and transforming the PBC dataset from the Mayo Clinic.
-2. **Kaplan-Meier Survival Curve**: Estimating survival probabilities over time.
-3. **Log-rank Test**: Comparing survival distributions across different patient groups.
-4. **Cox Proportional Hazard Model**: Identifying significant predictors of survival.
-5. **Extended Cox Model with Time-Dependent Covariates**: Addressing non-proportional hazards to enhance model accuracy.
+Primary Biliary Cirrhosis (PBC) adalah penyakit hati autoimun kronis yang dapat menyebabkan kerusakan hati progresif dan peningkatan risiko kematian. Memahami faktor-faktor yang memengaruhi kelangsungan hidup pasien sangat penting untuk meningkatkan strategi pengobatan dan pengambilan keputusan klinis. Proyek ini menggunakan teknik **analisis survival** untuk mengkaji pengaruh berbagai variabel klinis dan demografis terhadap waktu bertahan hidup pasien PBC.
 
-## 📊 Key Insights
-- The **Kaplan-Meier survival curves** revealed that factors such as ascites, hepatomegaly, and sex significantly impact survival.
-- **Log-rank tests** indicated statistical differences in survival based on key clinical factors.
-- **The Cox Proportional Hazard model** identified bilirubin levels, albumin, and age as significant predictors of survival time.
-- **The Extended Cox Model** helped adjust for time-dependent covariates, improving prediction accuracy.
+## 🛠 Metodologi
 
-This project provides valuable insights into survival trends among PBC patients and can aid in personalized treatment strategies.
+Analisis dilakukan melalui beberapa tahapan berikut:
 
+1. **Pra-pemrosesan Data**: Pembersihan dan transformasi dataset PBC dari Mayo Clinic.
+2. **Kurva Kaplan-Meier**: Mengestimasi probabilitas bertahan hidup dari waktu ke waktu.
+3. **Uji Log-rank**: Membandingkan distribusi survival antar kelompok pasien yang berbeda.
+4. **Model Cox Proportional Hazard**: Mengidentifikasi prediktor signifikan terhadap kelangsungan hidup.
+5. **Model Cox Ekstensi dengan Kovariat Bergantung Waktu**: Menangani pelanggaran asumsi proporsionalitas untuk meningkatkan akurasi model.
+
+## 📊 Kesimpulan
+
+* **Kurva Kaplan-Meier** menunjukkan bahwa faktor seperti ascites, hepatomegali, dan jenis kelamin secara signifikan memengaruhi peluang bertahan hidup.
+* **Uji log-rank** mengonfirmasi adanya perbedaan statistik dalam survival berdasarkan faktor klinis tertentu.
+* **Model Cox Proportional Hazard** mengidentifikasi kadar bilirubin, albumin, dan usia sebagai prediktor signifikan terhadap waktu bertahan hidup.
+* **Model Cox Ekstensi** mampu menangani kovariat yang berubah seiring waktu, sehingga meningkatkan akurasi prediksi.
+
+Proyek ini memberikan wawasan berharga tentang pola survival pasien PBC dan berpotensi mendukung strategi pengobatan yang lebih personal.
